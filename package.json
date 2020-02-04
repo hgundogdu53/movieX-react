@@ -1,6 +1,7 @@
 {
-  "name": "clientside",
+  "name": "movieX",
   "version": "0.1.0",
+  "author": "Huseyin Gundogdu <hgundogdu53@gmail.com>",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
