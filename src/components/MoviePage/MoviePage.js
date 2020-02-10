@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import './MoviePage.css'
-
+import config from '../../config'
 
 
 class MoviePage extends Component {
@@ -12,10 +12,10 @@ class MoviePage extends Component {
 
     componentDidMount() {
         const { id } = this.props.match.params;
-        fetch(`/api/movie/${id}`)
+        fetch(`${config.API_ENDPOINT}/api/movie/${id}`)
             .then(response => response.json())
             .then(data => this.setState({ data: data }));
-        fetch(`/api/movie/${id}/credits`)
+        fetch(`${config.API_ENDPOINT}/api/movie/${id}/credits`)
             .then(response => response.json())
             .then(data => this.setState({ crew: data.crew }));
     }

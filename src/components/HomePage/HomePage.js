@@ -5,6 +5,7 @@ import './HomePage.css';
 import { GoSearch } from 'react-icons/go';
 import { MdLocalMovies } from 'react-icons/md';
 import logo from '../../images/movie-logo-illustration-35102546.jpg';
+import config from '../../config';
 
 function HomePage() {
     const [movies, setMovies] = useState([]);
@@ -12,9 +13,9 @@ function HomePage() {
 
 
     useEffect(() => {
-        let url = '/api/movie/popular';
+        let url = `${config.API_ENDPOINT}/api/movie/popular`;
         if (search) {
-            url = `/api/search/movie?query=${search}`
+            url = `${config.API_ENDPOINT}/api/search/movie?query=${search}`
         }
         fetch(url)
             .then(res => {

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Huseyin Gundogdu <hgundogdu53@gmail.com>",
   "private": true,
-  "proxy": "https://movie2020.herokuapp.com/",
+  "proxy": "https://movie2020.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
