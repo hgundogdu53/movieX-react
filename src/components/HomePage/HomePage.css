@@ -1,0 +1,82 @@
+
+  .title {
+     text-align: center;
+     text-decoration: none;
+
+  }
+  span.title {
+    padding-left: 2rem;
+    text-align: center;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    border-radius: 50%;
+    margin-top:5%;
+  }
+
+.title:hover {
+    font-size: 58px;
+    text-shadow: center;
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.bar input {
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 250px;
+    height: 25px;
+    color: orange;
+    font-size: 12px;
+    text-align: center;
+}
+.bar button {
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movie-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: bold;
+}
+
+.search-box .bar {
+    font-size:32px;
+    padding-left: 20px;
+    border: 1px black solid;
+}
+
+input:focus, input:hover, button:focus, button:hover{
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    -webkit-box-shadow: 2px 8px 6px -6px black;
+    -moz-box-shadow: 2px 8px 6px -6px black;
+    box-shadow: 2px 8px 6px -6px black;
+    border: 2px;
+}
