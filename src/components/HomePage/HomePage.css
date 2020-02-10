@@ -36,7 +36,7 @@
 }
 
 .bar input {
-    border: 2px solid white;
+    border: 2px solid;
     border-radius: 25px;
     width: 250px;
     height: 25px;
