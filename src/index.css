@@ -24,12 +24,13 @@ main {
 
 
 .header {
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 
@@ -37,22 +38,23 @@ main {
 	font-size: 48px;
 	font-weight: 400;
   	text-align: center;
-	padding: 30px 15px 0px;
-	margin-bottom: -10px;  
+	padding-top: 2%;
+	padding-left: 0.11%;  
 
 }
 
 
 .bar {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 .bar input {
 	display: block;  
-	min-width: 180%;
-	padding: 10px;
+	width: auto;	
+	padding: 3%;
 	border: none;
 	outline: none;
 	border-radius: 8px;
