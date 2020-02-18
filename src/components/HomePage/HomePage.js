@@ -34,7 +34,7 @@ function HomePage() {
     return (
         <div className="App">
             <header className="header">
-                <Link to='/' className='title'><img className='icon' src={logo} alt='logo'></img><span className='title'>MovieX</span></Link>
+                <Link to='/' className='title'><img className='icon' src={logo} alt='logo'></img><span>MovieX</span></Link>
                 <div className='bar'>
                     <label htmlFor='search'><GoSearch /></label>
                     <input
