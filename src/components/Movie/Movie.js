@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './Movie.css'
+import '../../index.css';
 
 function Movie(props) {
     const history = useHistory();

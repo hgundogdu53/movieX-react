@@ -31,7 +31,7 @@ class MoviePage extends Component {
 
         return (
             <div className="movie-container">
-                <img className='detail-poster' alt='poster' src={"http://image.tmdb.org/t/p/w200" + poster_path} />
+                <img className='detail-poster' alt='poster' src={"http://image.tmdb.org/t/p/w300" + poster_path} />
                 <div className='detail-title'>{original_title}</div>
                 <div className='detail-release-date'>Released on: {moment(release_date).format("MMM Do YYYY")}</div>
                 <div className='detail-score'>Viewer Rating: {vote_average}</div>
